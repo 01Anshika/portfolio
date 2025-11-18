@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anshika Chaturvedi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar" aria-label="Main navigation">
+    <div class="logo">Anshika</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Main content -->
+  <div class="main">
+    <button id="menu-btn" aria-label="Toggle menu">&#9776;</button>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="profile-wrap">
+        <img src="profile.jpg" alt="Anshika Chaturvedi" class="profile-img">
+      </div>
+
+      <div class="hero-content">
+        <h1>Hello, I’m <span class="blue">Anshika Chaturvedi</span></h1>
+        <h2><span id="typing"></span></h2>
+        <p class="intro-text">
+          I am a final-year B.Tech IT student with a <strong>Diploma in Computer Science</strong>.
+          Passionate about <strong>AI/ML</strong> and <strong>Full-Stack Web Development</strong>.
+          Experienced in Python, Django, HTML, CSS, JS, and Bootstrap. Currently exploring React.js and MongoDB.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="glass-section animated-section">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate and dedicated final-year B.Tech IT student with a strong foundation in Computer Science.
+        I enjoy building projects that merge <strong>AI/ML intelligence</strong> with interactive, user-friendly web interfaces.
+        My expertise spans <strong>frontend and backend development</strong>, where I focus on creating responsive,
+        visually appealing, and functional applications.
+        <br><br>
+        I thrive on problem-solving, exploring new technologies, and continuously improving my skills.
+        I am particularly enthusiastic about developing projects that leverage <strong>Python, Django, AI/ML,
+        and modern web technologies</strong> to solve real-world challenges.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="glass-section animated-section">
+      <h2>Skills</h2>
+      <div class="skills-partitions">
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <div class="skill"><p>HTML/CSS/JS</p><div class="skill-bar"><div class="skill-fill htmljs" data-fill="85%"></div></div></div>
+          <div class="skill"><p>Bootstrap</p><div class="skill-bar"><div class="skill-fill bootstrap" data-fill="70%"></div></div></div>
+          <div class="skill"><p>React.js</p><div class="skill-bar"><div class="skill-fill react" data-fill="50%"></div></div></div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <div class="skill"><p>Python</p><div class="skill-bar"><div class="skill-fill python" data-fill="90%"></div></div></div>
+          <div class="skill"><p>Django</p><div class="skill-bar"><div class="skill-fill django" data-fill="70%"></div></div></div>
+          <div class="skill"><p>MongoDB</p><div class="skill-bar"><div class="skill-fill mongodb" data-fill="50%"></div></div></div>
+        </div>
+
+        <div class="skill-group">
+          <h3>AI/ML</h3>
+          <div class="skill"><p>Machine Learning</p><div class="skill-bar"><div class="skill-fill aiml" data-fill="75%"></div></div></div>
+          <div class="skill"><p>OpenCV</p><div class="skill-bar"><div class="skill-fill aiml" data-fill="70%"></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="glass-section animated-section">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="weather.png" alt="Weather Forecast" class="project-img">
+          <div class="overlay">
+            <p>HTML | CSS | JS | Weather API</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+          <h3>Weather Forecast Web App</h3>
+          <p>Frontend project showing live weather forecasts using Weather API.</p>
+        </div>
+
+        <div class="project-card">
+          <img src="handkeyboard.png" alt="Hand Gesture Keyboard" class="project-img">
+          <div class="overlay">
+            <p>Python | OpenCV | ML</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+          <h3>Hand Gesture Virtual Keyboard</h3>
+          <p>AI/ML-based project recognizing gestures to type using Python & OpenCV.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="glass-section animated-section">
+      <h2>Certifications</h2>
+      <div class="certificates-container">
+        <div class="certificate-card">
+          <h3>Python with Django</h3>
+          <p>SoftPro India</p>
+        </div>
+        <div class="certificate-card">
+          <h3>Big Data Training</h3>
+          <p>Samsung Innovation Campus</p>
+        </div>
+        <div class="certificate-card">
+          <h3>Frontend Development</h3>
+          <p>AICTE Internship (1.5 Months)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="glass-section animated-section">
+      <h2>Contact</h2>
+      <div class="contact-buttons">
+        <a href="mailto:anshikachaturvedi105@gmail.com" class="contact-btn">📧 Email Me</a>
+        <a href="https://www.linkedin.com/in/anshika-chaturvedi-7bb777256" target="_blank" rel="noopener" class="contact-btn">🔗 LinkedIn</a>
+        <a href="https://github.com/01Anshika" target="_blank" rel="noopener" class="contact-btn">💻 GitHub</a>
+        <a href="tel:7905042715" class="contact-btn">📱 Call Me</a>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
